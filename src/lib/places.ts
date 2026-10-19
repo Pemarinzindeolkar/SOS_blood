@@ -1,0 +1,26 @@
+// Approximate centre of each dzongkhag (plus two large towns), so donors
+// without GPS can still pick a location.
+export const PLACES = [
+  { name: "Bumthang", lat: 27.549, lng: 90.752 },
+  { name: "Chhukha", lat: 27.1, lng: 89.54 },
+  { name: "Dagana", lat: 27.07, lng: 89.88 },
+  { name: "Gasa", lat: 27.9, lng: 89.73 },
+  { name: "Gelephu", lat: 26.87, lng: 90.49 },
+  { name: "Haa", lat: 27.37, lng: 89.28 },
+  { name: "Lhuentse", lat: 27.67, lng: 91.18 },
+  { name: "Mongar", lat: 27.27, lng: 91.24 },
+  { name: "Paro", lat: 27.43, lng: 89.42 },
+  { name: "Pemagatshel", lat: 27.04, lng: 91.4 },
+  { name: "Phuentsholing", lat: 26.85, lng: 89.39 },
+  { name: "Punakha", lat: 27.59, lng: 89.86 },
+  { name: "Samdrup Jongkhar", lat: 26.8, lng: 91.5 },
+  { name: "Samtse", lat: 26.9, lng: 89.1 },
+  { name: "Sarpang", lat: 26.86, lng: 90.27 },
+  { name: "Thimphu", lat: 27.4728, lng: 89.639 },
+  { name: "Trashigang", lat: 27.33, lng: 91.55 },
+  { name: "Trashiyangtse", lat: 27.61, lng: 91.5 },
+  { name: "Trongsa", lat: 27.5, lng: 90.51 },
+  { name: "Tsirang", lat: 27.02, lng: 90.12 },
+  { name: "Wangdue Phodrang", lat: 27.48, lng: 89.9 },
+  { name: "Zhemgang", lat: 27.21, lng: 90.66 },
+];
